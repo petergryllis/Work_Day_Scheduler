@@ -87,9 +87,9 @@ ul {
 
 #sortable {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   line-height: 0%;
+  width: 100%;
 }
 #sortable li {
   margin: 0 3px 3px 3px;
@@ -105,4 +105,8 @@ ul {
   background-color: crimson;
   color: white;
   text-align: left;
+}
+
+#inlineblock {
+  display: inline-block;
 }
