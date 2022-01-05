@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 25px;
   line-height: 1;
 }
 
@@ -87,10 +87,9 @@ ul {
 
 #sortable {
   list-style-type: none;
-  
   margin: 0;
   padding: 0;
-  width: 20%;
+  line-height: 0%;
 }
 #sortable li {
   margin: 0 3px 3px 3px;
@@ -98,11 +97,14 @@ ul {
   font-size: small;
   padding-left: 1.5em;
   font-size: 1.5em;
-  height: 15px;
+  height: 40px;
   border: 2px solid blue;
+  border-radius: 2px;
+  text-align: left;
 }
 
-sortable-li:hover {
+.sortable:hover {
   background-color: crimson;
   color: white;
+  text-align: left;
 }
